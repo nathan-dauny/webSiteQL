@@ -1,10 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SliceQL.web.Models;
-using SliceQL.Core;
-using System.Data.SQLite;
+using webSiteQL.Models;
 
-namespace SliceQL.web.Controllers
+namespace webSiteQL.Controllers
 {
     public class HomeController : Controller
     {

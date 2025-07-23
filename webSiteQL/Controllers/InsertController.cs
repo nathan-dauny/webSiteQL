@@ -1,9 +1,9 @@
 ﻿using CsvToDynamicObjectLib;
 using CsvToSqlInsert;
 using Microsoft.AspNetCore.Mvc;
-using SliceQL.web.Models;
+using webSiteQL.Models;
 
-namespace SliceQL.web.Controllers
+namespace webSiteQL.Controllers
 {
     public class InsertController : Controller
     {

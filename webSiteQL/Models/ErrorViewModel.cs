@@ -1,4 +1,4 @@
-namespace SliceQL.web.Models
+namespace webSiteQL.Models
 {
     public class ErrorViewModel
     {

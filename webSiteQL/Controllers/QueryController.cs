@@ -1,11 +1,10 @@
 ﻿using System.Text;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using SliceQL.Core;
-using SliceQL.web.Models;
+using webSiteQL.Models;
 
-namespace SliceQL.web.Controllers
+
+namespace webSiteQL.Controllers
 {
     public class QueryController : Controller
     {
