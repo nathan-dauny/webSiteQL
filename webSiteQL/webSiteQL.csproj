@@ -9,24 +9,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.7" />
-	</ItemGroup>
-
-	<ItemGroup>
+	  <ProjectReference Include="..\..\CsvToDynamicObject\CsvToDynamicObjectLib\CsvToDynamicObjectLib.csproj" />
 	  <ProjectReference Include="..\..\CsvToSqlInsert\CsvToSqlInsert.csproj" />
 	  <ProjectReference Include="..\..\SliceQL.Core\SliceQL.Core\SliceQL.Core.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Reference Include="CsvToDynamicObjectLib">
-			<HintPath>libs\CsvToDynamicObjectLib.dll</HintPath>
-		</Reference>
-		<Reference Include="CsvToSqlInsert">
-			<HintPath>libs\CsvToSqlInsert.dll</HintPath>
-		</Reference>
-		<Reference Include="SliceQL.Core">
-			<HintPath>libs\SliceQL.Core.dll</HintPath>
-		</Reference>
 	</ItemGroup>
 
 </Project>
