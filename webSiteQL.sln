@@ -5,18 +5,30 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webSiteQL", "webSiteQL\webSiteQL.csproj", "{4DF17794-B993-490E-AE79-935398028B43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliceQL.Core", "..\SliceQL.Core\SliceQL.Core\SliceQL.Core.csproj", "{CCD5FB04-8972-46EE-A573-CE37D64C4266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvToSqlInsert", "..\CsvToSqlInsert\CsvToSqlInsert.csproj", "{C668B2C2-E0E0-441F-834D-C78FF5806A64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4DF17794-B993-490E-AE79-935398028B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4DF17794-B993-490E-AE79-935398028B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF17794-B993-490E-AE79-935398028B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF17794-B993-490E-AE79-935398028B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD5FB04-8972-46EE-A573-CE37D64C4266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD5FB04-8972-46EE-A573-CE37D64C4266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD5FB04-8972-46EE-A573-CE37D64C4266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD5FB04-8972-46EE-A573-CE37D64C4266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C668B2C2-E0E0-441F-834D-C78FF5806A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C668B2C2-E0E0-441F-834D-C78FF5806A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C668B2C2-E0E0-441F-834D-C78FF5806A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C668B2C2-E0E0-441F-834D-C78FF5806A64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
