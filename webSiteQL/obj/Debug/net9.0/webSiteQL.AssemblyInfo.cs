@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webSiteQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39b3c83cc8a74c69fbb572cb83948172fc8f8454")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9de0e69c2ba01fc993b3b4b602ca99d3e348076")]
 [assembly: System.Reflection.AssemblyProductAttribute("webSiteQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webSiteQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
