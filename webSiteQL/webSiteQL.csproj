@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SliceQL.Core\SliceQL.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CsvToDynamicObjectLib">
+      <HintPath>libs\CsvToDynamicObjectLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvToSqlInsert">
+      <HintPath>libs\CsvToSqlInsert.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

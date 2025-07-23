@@ -1,0 +1,31 @@
+﻿@model SliceQL.web.Models.InsertGeneratorViewModel
+@{
+    ViewData["Title"] = "Generate INSERT SQL from CSV";
+}
+
+<h2>Generate INSERT SQL from CSV</h2>
+
+<form asp-action="Index" method="post" enctype="multipart/form-data">
+    <div>
+        <label>CSV File:</label>
+        <input type="file" name="CsvFile" required />
+    </div>
+    <div>
+        <label>Target Table Name:</label>
+        <input type="text" name="TableName" value="@Model.TableName" required />
+    </div>
+    <button type="submit">Generate SQL</button>
+</form>
+
+@if (!string.IsNullOrWhiteSpace(Model?.ErrorMessage))
+{
+    <div style="color:red;">
+        <p>@Model.ErrorMessage</p>
+    </div>
+}
+
+@if (Model?.InsertStatements != null && Model.InsertStatements.Any())
+{
+    <h3>Generated SQL INSERT Statements:</h3>
+    <textarea rows="20" style="width:100%;">@string.Join(Environment.NewLine, Model.InsertStatements)</textarea>
+}
