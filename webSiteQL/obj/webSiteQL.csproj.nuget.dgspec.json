@@ -4,6 +4,77 @@
     "C:\\Users\\anous\\Desktop\\Applications dev\\webSiteQL\\webSiteQL\\webSiteQL.csproj": {}
   },
   "projects": {
+    "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToDynamicObject\\CsvToDynamicObjectLib\\CsvToDynamicObjectLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToDynamicObject\\CsvToDynamicObjectLib\\CsvToDynamicObjectLib.csproj",
+        "projectName": "CsvToDynamicObjectLib",
+        "projectPath": "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToDynamicObject\\CsvToDynamicObjectLib\\CsvToDynamicObjectLib.csproj",
+        "packagesPath": "C:\\Users\\anous\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToDynamicObject\\CsvToDynamicObjectLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anous\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToSqlInsert\\CsvToSqlInsert.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -192,6 +263,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToDynamicObject\\CsvToDynamicObjectLib\\CsvToDynamicObjectLib.csproj": {
+                "projectPath": "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToDynamicObject\\CsvToDynamicObjectLib\\CsvToDynamicObjectLib.csproj"
+              },
               "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToSqlInsert\\CsvToSqlInsert.csproj": {
                 "projectPath": "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToSqlInsert\\CsvToSqlInsert.csproj"
               },
@@ -216,12 +290,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.Data.Sqlite": {
-              "target": "Package",
-              "version": "[9.0.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
