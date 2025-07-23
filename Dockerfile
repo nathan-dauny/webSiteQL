@@ -1,23 +1,21 @@
-# Étape 1 : Build & Publish
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ENV NUGET_PACKAGES=/root/.nuget/packages
 
 WORKDIR /src
 
-# Copier la solution et les projets
-COPY webSiteQL.sln ./
-COPY webSiteQL/*.csproj webSiteQL/
+# Copier tout le code (solution + projets + dossiers)
+COPY . .
 
-# Nettoyage cache NuGet
+# Nettoyer cache NuGet (optionnel mais conseillé)
 RUN dotnet nuget locals all --clear
 
-# Copier tout le code
-COPY . .
+# Restaurer la solution complète
+RUN dotnet restore webSiteQL.sln
 
 # Publier en Release
 RUN dotnet publish webSiteQL/webSiteQL.csproj -c Release -o /app/publish
 
-# Étape 2 : Runtime
+# Étape runtime
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 
