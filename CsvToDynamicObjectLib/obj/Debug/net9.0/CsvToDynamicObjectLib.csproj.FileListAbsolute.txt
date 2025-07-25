@@ -1,0 +1,13 @@
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\bin\Debug\net9.0\CsvToDynamicObjectLib.deps.json
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\bin\Debug\net9.0\CsvToDynamicObjectLib.dll
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\bin\Debug\net9.0\CsvToDynamicObjectLib.pdb
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.csproj.AssemblyReference.cache
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.AssemblyInfoInputs.cache
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.AssemblyInfo.cs
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.csproj.CoreCompileInputs.cache
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.sourcelink.json
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.dll
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\refint\CsvToDynamicObjectLib.dll
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\CsvToDynamicObjectLib.pdb
+C:\Users\anous\Desktop\Applications dev\CsvToDynamicObject\CsvToDynamicObjectLib\obj\Debug\net9.0\ref\CsvToDynamicObjectLib.dll
