@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tYbFTbKWRB0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anous\\Desktop\\Applications dev\\CsvToDynamicObject\\CsvToDynamicObjectLib\\CsvToDynamicObjectLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anous\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
